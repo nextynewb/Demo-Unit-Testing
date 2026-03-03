@@ -4,8 +4,7 @@ A simple Python project demonstrating basic math operations and unit testing wit
 
 ## Project Structure
 
-- `math_ops.py`: Contains the basic math functions (`add`, `subtract`).
-- `test_math_ops.py`: Contains unit tests for the math functions.
+- `math_ops.py`: Contains basic math functions (`add`, `subtract`) and their corresponding tests.
 - `requirements.txt`: Project dependencies.
 
 ## Getting Started
@@ -31,7 +30,7 @@ GitHub Codespaces provides a complete, pre-configured dev environment in the clo
 4.  **Run Tests:**
     To run the unit tests, use:
     ```bash
-    pytest
+    pytest math_ops.py
     ```
 
 ### Local Setup
@@ -57,7 +56,7 @@ If you prefer to run the project locally:
 
 4.  **Run Tests:**
     ```bash
-    pytest
+    pytest math_ops.py
     ```
 
 ## Running the Code
@@ -70,4 +69,3 @@ from math_ops import add, subtract
 print(add(5, 3))       # Output: 8
 print(subtract(10, 4)) # Output: 6
 ```
-# Demo-Unit-Testing
