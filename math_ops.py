@@ -16,4 +16,5 @@ def test_subtract():
     assert subtract(0, 5) == -5
     assert subtract(-1, -1) == 0
 
-
+def multiply(a,b):
+    return a * b
